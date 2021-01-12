@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+/**
+Installing bootstrap and font-awesome does NOT provide access to their stylesheets.
+That is why we import it here in our global style sheet which is the style.css. The
+stylesheet will now be available to any template in our application.
+*/
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+div.card-header {
+ font-size: large;
+}
+
+div.card {
+  margin-top: 10px
+}
+
+.table {
+  margin-top: 10px
+}
